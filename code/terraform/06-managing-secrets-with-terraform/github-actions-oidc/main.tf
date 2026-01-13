@@ -10,7 +10,7 @@ terraform {
 }
 
 provider "aws" {
-  region = "us-east-2"
+  region = "ap-northeast-1"
 }
 
 # Create an IAM OIDC identity provider that trusts GitHub
